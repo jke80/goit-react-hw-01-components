@@ -1,0 +1,27 @@
+.item {
+  padding: 20px;
+  display: flex;
+  border: 1px solid #aaa;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+.item:last-child {
+  margin-bottom: 0;
+}
+.avatar {
+  display: block;
+}
+.name {
+  margin: 0;
+}
+.status {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: red;
+}
+.isOnline {
+  background-color: green;
+}
